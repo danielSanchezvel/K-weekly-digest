@@ -30,14 +30,6 @@ const updatesData = {
           link: "https://help.kajabi.com/hc/en-us/articles/38055529679643-How-to-Add-Offers-in-Kajabi-Communities",
         },
       ],
-      "Week of June 10–16": [
-        {
-          title: "📩 Email Builder Enhancements",
-          description:
-            "New blocks for countdown timers, testimonials, and personalized offers.",
-          link: "https://kajabi.com/email-enhancements",
-        },
-      ],
     },
   },
   SOP: {
