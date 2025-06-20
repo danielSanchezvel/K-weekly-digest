@@ -1,4 +1,9 @@
 import { useState } from "react";
+import BlurText from "./BlurText";
+
+const handleAnimationComplete = () => {
+  console.log("Animation completed!");
+};
 
 const tabs = ["Feature Updates", "SOP", "Internal"];
 
@@ -77,10 +82,14 @@ export default function KajabiWeeklyDigest() {
   return (
     <div className='min-h-screen bg-gradient-to-r from-blue-100 to-blue-50 p-6 text-gray-800'>
       <div className='max-w-4xl mx-auto'>
-        <h1 className='text-4xl font-extrabold mb-8 text-center text-blue-900'>
-          Kajabi Weekly Digest
-        </h1>
-
+        <BlurText
+          text='Kajabi Weekly Digest!'
+          delay={150}
+          animateBy='words'
+          direction='top'
+          onAnimationComplete={handleAnimationComplete}
+          className='text-4xl font-extrabold mb-8 text-center text-blue-900'
+        />
         <div className='flex justify-center mb-6 space-x-3'>
           {tabs.map((tab) => (
             <button
@@ -100,7 +109,6 @@ export default function KajabiWeeklyDigest() {
             </button>
           ))}
         </div>
-
         {Object.entries(data).map(([month, weeks]) => (
           <div key={month} className='mb-6'>
             <button
