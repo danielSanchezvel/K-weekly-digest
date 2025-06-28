@@ -4,7 +4,7 @@ export const updatesData = {
       "Week of June 17–23": [
         {
           title: "💻  Branded Mobile App promo",
-          description: 
+          description:
             "kicked off on 6/23, offering existing Heroes 3 months free",
           link: "https://kajabi.atlassian.net/wiki/x/L4DgtQ",
         },
@@ -14,7 +14,6 @@ export const updatesData = {
             "We are going to begin deleting unnecessary / The dates have been updated!",
           link: " https://kajabi.atlassian.net/wiki/x/JQCVp",
         },
-        
       ],
       "Week of June 17–23": [
         {
@@ -123,8 +122,9 @@ export const updatesData = {
       ],
       "Week of May 19-26": [
         {
-          title: "💸 Fin email bot", 
-          description: " the replacement for Forethought and our Kai bot, was turned on.", 
+          title: "💸 Fin email bot",
+          description:
+            " the replacement for Forethought and our Kai bot, was turned on.",
           link: "https://kajabi.slack.com/archives/C02RVLC5V/p1747850400166279",
         },
         {
@@ -133,25 +133,25 @@ export const updatesData = {
             "starting Jun 1, 2025 , we will be charging GST on their Kajabi subscriptions",
           link: "https://kajabi.slack.com/archives/C03SRUCEPFF/p1747756267107729",
         },
-    },
-    
-  },
-  Internal: {
-    "June 2025": {
-      "Week of June 17–23": [
-        {
-          title: "📣 Ack your Team leads",
-          description:
-            "When a team lead shares a message, it's crucial to acknowledge it so we know you've received and reviewed it.",
-          link: "#",
-        },
-        {
-          title: "📊 Proactively report no activity",
-          description:
-            "After 20 minutes of no activity, let your team know so they can request a change of queue or assing you projects",
-          link: "#",
-        },
       ],
+    },
+    Internal: {
+      "June 2025": {
+        "Week of June 17–23": [
+          {
+            title: "📣 Ack your Team leads",
+            description:
+              "When a team lead shares a message, it's crucial to acknowledge it so we know you've received and reviewed it.",
+            link: "#",
+          },
+          {
+            title: "📊 Proactively report no activity",
+            description:
+              "After 20 minutes of no activity, let your team know so they can request a change of queue or assing you projects",
+            link: "#",
+          },
+        ],
+      },
     },
   },
 };

@@ -16,7 +16,7 @@ export default function KajabiWeeklyDigest() {
   const data = updatesData[activeTab];
 
   return (
-    <div className='min-h-screen bg-gradient-to-r from-blue-100 to-blue-50 p-6 text-gray-800'>
+    <div className='min-h-screen color-ange  p-6 text-gray-800'>
       <div className='max-w-4xl mx-auto'>
         <div className='flex justify-center mb-6 space-x-3'>
           {tabs.map((tab) => (
