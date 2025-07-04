@@ -1,6 +1,26 @@
 export const updatesData = {
   "Feature Updates": {
     "June 2025": {
+      "Week of June 23-27": [
+        {
+          title: "Feature Update Static Text Receipt Translation",
+          description:
+            "Heroes will be able to translate the static text on receipts to the language if desired.",
+          link: "https://kajabi.atlassian.net/wiki/spaces/CXHOME/pages/3054993411/Feature+Update+Static+Text+Receipt+Translation",
+        },
+        {
+          title: "Stripe Billing (Subscription) Update",
+          description:
+            "Stripe increased its billing fee to 0.7% on July 10, 2024, prompting Kajabi Payments to adjust its fee to 0.7% on August 14, 2024. A promotional 0.5% rate for early Kajabi Payments adopters expired June 30, 2025, meaning all users now pay 0.7% as of July 1, 2025.",
+          link: "https://kajabi.atlassian.net/wiki/spaces/CXHOME/pages/2310537269/Stripe+Billing+Subscription+Update",
+        },
+        {
+          title: "Community Custom Page Picker rolled out 100%",
+          description:
+            "An improvement to pick any page from your website for embedding to your Community - Rolled out 100%",
+          link: "https://help.kajabi.com/hc/en-us/articles/9959624056219-How-to-Add-a-Custom-Page-to-Your-Community",
+        },
+      ],
       "Week of June 17–23": [
         {
           title: "💻  Branded Mobile App promo",
@@ -14,8 +34,6 @@ export const updatesData = {
             "We are going to begin deleting unnecessary / The dates have been updated!",
           link: " https://kajabi.atlassian.net/wiki/x/JQCVp",
         },
-      ],
-      "Week of June 17–23": [
         {
           title: "💻 Partner Developer Sites",
           description:
@@ -89,6 +107,18 @@ export const updatesData = {
   },
   SOP: {
     "June 2025": {
+      "Week of June 23-27": [
+        {
+          title: "Fin Copilot All Out!",
+          description: "AI-powered app to help us work faster and more efficiently on support tickets.",
+          link: "https://kajabi.atlassian.net/wiki/spaces/SUP/pages/3003875368/Fin+Copilot+Guide#Start-Here",
+        },
+        {
+          title: "New Techlead Escalation macro",
+          description: "Shorter, more effective, and easier to use!",
+          link: "https://kajabi.slack.com/archives/C03SRUCEPFF/p1751394983880739?thread_ts=1750872118.493099&cid=C03SRUCEPFF",
+        },
+      ],
       "Week of June 17–23": [
         {
           title: "📝 Handling Hero Inquiries Received via Kajabi Work Email",
