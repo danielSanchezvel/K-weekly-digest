@@ -1,5 +1,45 @@
 export const updatesData = {
   "Feature Updates": {
+    "July 2025": {
+      "Week of July 1-7": [
+        {
+          title: "Community Custom Page Integration",
+          description:
+            "You can now integrate custom pages into your community, offering more branding and content flexibility.",
+          link: "https://kajabi.com",
+        },
+        {
+          title: "Community Offer Blocks",
+          description:
+            "This new feature allows you to add offer blocks directly within your community, streamlining the sales process.",
+          link: "https://kajabi.com",
+        },
+        {
+          title: "Kajabi Payments Milestone",
+          description:
+            "Kajabi Payments has now processed over $1 billion in revenue for creators.",
+          link: "https://kajabi.com",
+        },
+        {
+          title: "Expansion to UAE",
+          description:
+            "Kajabi Payments is now available for users in the United Arab Emirates.",
+          link: "https://kajabi.com",
+        },
+        {
+          title: "Turn Off Auto-Collection",
+          description:
+            "You now have the option to disable automatic payment collection for your offers.",
+          link: "https://kajabi.com",
+        },
+        {
+          title: "Receipt Translation",
+          description:
+            "Receipts can now be translated, improving the experience for international customers.",
+          link: "https://kajabi.com",
+        },
+      ],
+    },
     "June 2025": {
       "Week of June 23-27": [
         {
