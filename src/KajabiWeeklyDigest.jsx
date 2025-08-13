@@ -6,7 +6,7 @@ const handleAnimationComplete = () => {
   console.log("Animation completed!");
 };
 
-const tabs = ["Feature Updates", "SOP", "Internal"];
+const tabs = ["Feature Updates", "SOP"];
 
 export default function KajabiWeeklyDigest() {
   const [activeTab, setActiveTab] = useState("Feature Updates");

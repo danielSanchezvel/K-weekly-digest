@@ -1,61 +1,65 @@
 export const updatesData = {
   "Feature Updates": {
+   
     "July 2025": {
-      "Week of July 1-7": [
+      "Week of July 1-7": [      
+      
         {
-          title: "Community Custom Page Integration",
-          description:
-            "You can now integrate custom pages into your community, offering more branding and content flexibility.",
-          link: "https://kajabi.com",
-        },
-        {
-          title: "Community Offer Blocks",
-          description:
-            "This new feature allows you to add offer blocks directly within your community, streamlining the sales process.",
-          link: "https://kajabi.com",
-        },
-        {
-          title: "Kajabi Payments Milestone",
-          description:
-            "Kajabi Payments has now processed over $1 billion in revenue for creators.",
-          link: "https://kajabi.com",
-        },
-        {
-          title: "Expansion to UAE",
-          description:
-            "Kajabi Payments is now available for users in the United Arab Emirates.",
-          link: "https://kajabi.com",
-        },
-        {
-          title: "Turn Off Auto-Collection",
+          title: "🦾 Turn Off Auto-Collection",
           description:
             "You now have the option to disable automatic payment collection for your offers.",
-          link: "https://kajabi.com",
+          link: "https://kajabi.atlassian.net/wiki/spaces",
         },
         {
-          title: "Receipt Translation",
+          title: "🧾 Receipt Translation",
           description:
             "Receipts can now be translated, improving the experience for international customers.",
-          link: "https://kajabi.com",
+          link: "https://kajabi.atlassian.net/wiki/spaces",
         },
+      ],
+      "Week of July 14-28": [
+        {
+          title: "⚠️ Community Custom Page Integration",
+          description:
+            "You can now integrate custom pages into your community, offering more branding and content flexibility.",
+          link: "https://kajabi.atlassian.net/wiki/spaces",
+        },
+        {
+          title: "🏷️ Community Offer Blocks",
+          description:
+            "This new feature allows you to add offer blocks directly within your community, streamlining the sales process.",
+          link: "https://kajabi.atlassian.net/wiki/spaces",
+        },
+        {
+          title: "🏆 Kajabi Payments Milestone",
+          description:
+            "Kajabi Payments has now processed over $1 billion in revenue for creators.",
+          link: "https://kajabi.atlassian.net/wiki/spaces",
+        },
+        {
+          title: "🌏 Expansion to UAE",
+          description:
+            "Kajabi Payments is now available for users in the United Arab Emirates.",
+          link: "https://kajabi.atlassian.net/wiki/spaces",
+        }     
       ],
     },
     "June 2025": {
       "Week of June 23-27": [
         {
-          title: "Feature Update Static Text Receipt Translation",
+          title: "💬 Feature Update Static Text Receipt Translation",
           description:
             "Heroes will be able to translate the static text on receipts to the language if desired.",
           link: "https://kajabi.atlassian.net/wiki/spaces/CXHOME/pages/3054993411/Feature+Update+Static+Text+Receipt+Translation",
         },
         {
-          title: "Stripe Billing (Subscription) Update",
+          title: "💲Stripe Billing (Subscription) Update",
           description:
             "Stripe increased its billing fee to 0.7% on July 10, 2024, prompting Kajabi Payments to adjust its fee to 0.7% on August 14, 2024. A promotional 0.5% rate for early Kajabi Payments adopters expired June 30, 2025, meaning all users now pay 0.7% as of July 1, 2025.",
           link: "https://kajabi.atlassian.net/wiki/spaces/CXHOME/pages/2310537269/Stripe+Billing+Subscription+Update",
         },
         {
-          title: "Community Custom Page Picker rolled out 100%",
+          title: "🎨 Community Custom Page Picker rolled out 100%",
           description:
             "An improvement to pick any page from your website for embedding to your Community - Rolled out 100%",
           link: "https://help.kajabi.com/hc/en-us/articles/9959624056219-How-to-Add-a-Custom-Page-to-Your-Community",
@@ -146,15 +150,39 @@ export const updatesData = {
     },
   },
   SOP: {
-    "June 2025": {
-      "Week of June 23-27": [
+    "August 2025":{
+      "Week of August 4-8":[{
+        title: "📱 EDAC Escalation update",
+          description:
+            "Make sure to check what records the hero provides as now we only accept Kajabi DNS into Path A",
+          link: "https://kajabi.atlassian.net/wiki/spaces/SUP/pages/3003875368/Fin+Copilot+Guide#Start-Here"}
+      ]
+    },
+    "July 2025": {
+      "Week of July 23-27": [
         {
-          title: "Fin Copilot All Out!",
-          description: "AI-powered app to help us work faster and more efficiently on support tickets.",
+          title: "📦 Kajabi Rewards - SOP for out of stock",
+          description:
+            "AI-powered app to help us work faster and more efficiently on support tickets.",
           link: "https://kajabi.atlassian.net/wiki/spaces/SUP/pages/3003875368/Fin+Copilot+Guide#Start-Here",
         },
         {
-          title: "New Techlead Escalation macro",
+          title: "⤴️ New Mobile team Escalation macro",
+          description: "Forget the old channel, simply use the first macro",
+          link: "https://kajabi.slack.com/archives/C03SRUCEPFF/p1751394983880739?thread_ts=1750872118.493099&cid=C03SRUCEPFF",
+        },
+      ],
+    },
+    "June 2025": {
+      "Week of June 23-27": [
+        {
+          title: "🤖 Fin Copilot All Out!",
+          description:
+            "AI-powered app to help us work faster and more efficiently on support tickets.",
+          link: "https://kajabi.atlassian.net/wiki/spaces/SUP/pages/3003875368/Fin+Copilot+Guide#Start-Here",
+        },
+        {
+          title: "⤴️ New Techlead Escalation macro",
           description: "Shorter, more effective, and easier to use!",
           link: "https://kajabi.slack.com/archives/C03SRUCEPFF/p1751394983880739?thread_ts=1750872118.493099&cid=C03SRUCEPFF",
         },
@@ -204,24 +232,12 @@ export const updatesData = {
           link: "https://kajabi.slack.com/archives/C03SRUCEPFF/p1747756267107729",
         },
       ],
-    },
-    Internal: {
-      "June 2025": {
-        "Week of June 17–23": [
-          {
-            title: "📣 Ack your Team leads",
-            description:
-              "When a team lead shares a message, it's crucial to acknowledge it so we know you've received and reviewed it.",
-            link: "#",
-          },
-          {
-            title: "📊 Proactively report no activity",
-            description:
-              "After 20 minutes of no activity, let your team know so they can request a change of queue or assing you projects",
-            link: "#",
-          },
-        ],
-      },
-    },
+    }
   },
+  "Internal":{
+    "Check the Slack Channel":{ title: "Fin Copilot All Out!",
+      description:
+        "AI-powered app to help us work faster and more efficiently on support tickets.",
+      link: "https://kajabi.atlassian.net/wiki/spaces/SUP/pages/3003875368/Fin+Copilot+Guide#Start-Here", }
+  }
 };
